@@ -2,11 +2,19 @@ package org.air;
 
 public class Air {
 	
- public void aeroplane() {
-  System.out.println("Aeroplane CompanyNames:Spicejet,JetAirways");
+ public void Salary() {
+  System.out.println("Salary");
 }
- public void helicopter() {
-  System.out.println("Helicopter other Name: Chopper");
+ public void Income() {
+  System.out.println("Income");
+  
 	}
+ 
+ public static void main(String[] args) {
+	Air a=new Air();
+	a.Salary();
+	a.Income();
+	
+}
 
 }
