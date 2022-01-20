@@ -1,17 +1,22 @@
 package org.road;
 
 public class Road {
- public void bike() {
-System.out.println("Bike for double users");
-	}
- public void cycle() {
-System.out.println("Cycle for single users");
-    }
-public void bus() {
-System.out.println("Bus for public people");
-}  
-public void lorry() {
-System.out.println("Lorry for goods transport");
+private void salary() {
+	System.out.println("salary");
+	
 }
 
+private void saving() {
+	System.out.println("saving");
 }
+
+public static void main(String[] args) {
+	Road r=new Road();
+	r.salary();
+	r.saving();
+	
+}
+}
+
+
+
